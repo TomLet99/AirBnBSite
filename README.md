@@ -7,5 +7,6 @@ This is an updated and altered version of my CS299 Final
 To run, use the the following command in the terminal:
 
 pip install streamlit
+
 streamlit run AirBnBSite
 
