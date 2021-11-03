@@ -61,7 +61,7 @@ def listingMap(listings):
     map = pdk.Deck(
         map_style='mapbox://styles/mapbox/light-v9',
         initial_view_state=view_state,
-        mapbox_key=MAPKEY,
+        #mapbox_key=MAPKEY,
         layers=[layer1],
         tooltip=tool_tip
     )
