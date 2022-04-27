@@ -20,7 +20,7 @@ import numpy as np
 import statistics
 
 DATA_FILE = 'listings.csv'
-MAPKEY = "pk.eyJ1IjoiY2hlY2ttYXJrIiwiYSI6ImNrOTI0NzU3YTA0azYzZ21rZHRtM2tuYTcifQ.6aQ9nlBpGbomhySWPF98DApk.eyJ1IjoiY2hlY2ttYXJrIiwiYSI6ImNrOTI0NzU3YTA0azYzZ21rZHRtM2tuYTcifQ.6aQ9nlBpGbomhySWPF98DA"
+MAPKEY = "" #insert Google maps API key here
 
 #filters the dataframe and returns a dict of the values between prices x and y, of room_type: 'size' and in the neighborhoods array
 def filterList(doc, x, y, size, neighbourhoods):
